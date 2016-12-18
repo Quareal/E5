@@ -1,0 +1,1 @@
+<span class="link" OnClick="showhide('hpanel[$id]');">[icon('tree')][$name]</span>

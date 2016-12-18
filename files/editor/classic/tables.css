@@ -1,0 +1,222 @@
+.elem{
+	color:#0000ff;
+	cursor: pointer;
+}
+.elem:hover{
+	color:#ff0000;
+	cursor: pointer;
+}
+form{
+	margin:0;
+	padding:0;
+}
+input, textarea, select {
+	color: #000000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	vertical-align: middle;
+	border: 1px solid #A5A5A5;
+	width: 99%;
+}
+
+input.pos {
+	position: static;
+	font-size: 12px;
+	cursor: text;
+	width: 22px; margin: 0px;padding:0px;
+}
+
+input.sort {
+	border: 1px solid;
+	font-size: 9px;
+	height: 14px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 3px;
+}
+#records {
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+#records td{
+	vertical-align: middle;
+	padding:5px;
+	font-size: 11px;
+}
+#records td.logo{
+	vertical-align: middle;
+	text-align: center;
+}
+#records td.container {
+	background-color: #E6F6E9;
+	padding: 5px 5px 5px 15px;
+}
+
+#records th{
+	background: #1076DC;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+	padding:5px;
+}
+
+#records th.num{
+	width:20px;
+}
+
+#records tr {
+	background-color: #E6EFF6;
+}
+
+#records tr.na {
+	background-color: #E2E9EE;
+}
+
+#records tr.act {
+	background-color: #D7E7F6;
+}
+
+.td-date{
+	background-color: #E6EFF6;
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.td-num{
+	background-color: #E6EFF6;
+}
+
+.td-empty{
+	background-color: #F1F4F7;
+}
+
+.drag1{
+	background-image: url(../movebg.jpg);
+}
+
+.drag2{
+	cursor: move;
+}
+
+#records tr:hover, #records tr.over, #records #active {
+	background-color: #D7E7F6;
+}
+
+table.tbl {
+	font-family: Verdana, Arial, Helvetica, Geneva;
+	font-size: 11px;
+}
+
+table.tbl td {
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+table.tbl th {
+	background-color: #C7D8E3;
+	vertical-align: top;
+}
+.button{
+	width:auto;
+}
+input{
+	color: #003100;
+	background-color: #F9F9FF;
+}
+input:hover{
+	color: #FF3100;
+	background-color: #F2F2FF;
+}
+textarea{
+	color: #003100;
+	background-color: #F9F9FF;
+}
+.checkbox{
+	width:auto;
+	border: 0;
+}
+h2{
+	font-size: 14px;
+	color: #444444;
+}
+h1{
+	font-size: 14px;
+	color: #000000;
+}
+h3{
+	color: #444444;
+}
+.link{
+	color: #0000DD;
+	cursor: pointer;
+}
+.link:hover{
+	color: #FF0000;
+	cursor: pointer;
+}
+.checkbox1{
+	width: 14px; height 12px;padding: 0px; margin: 0px; margin-left: 2px; 
+	cursor: default;
+}
+.checkbox1b{
+	width: 14px; height 12px;padding: 0px; margin: 0px; margin-left: 2px; 
+}
+.checkbox2{
+	width: 14px; height 12px;padding: 0px; margin: 0px; margin-left: 2px; 
+	border:0px;
+	cursor: default;
+}
+.checkbox1k{
+	width: 14px; height 12px;padding: 0px; margin: 0px; margin-left: 2px; 
+	cursor: default;
+}
+.checkbox2k{
+	width: 14px; height 12px;padding: 0px; margin: 0px; margin-left: 2px; 
+	border:0px;
+	cursor: default;
+}
+.black:link{
+	color: #000000;
+	text-decoration: none;
+}
+.black:visited{
+	color: #000000;
+	text-decoration: none;
+}
+.black:hover{
+	text-decoration: underline;
+	color: #FF0000;
+}
+.blocks2{
+	background: #FAFAFA;	
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#think-row, #think-row th{
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 0px;
+}
+.perm_records table{
+	background-color: #FFFFFF;
+	border-spacing: 1px;
+}
+.perm_records td:first-child{
+	width: 100%;
+}
+.big_checkbox{
+	width: 30px;
+	height: 30px;
+}

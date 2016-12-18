@@ -1,0 +1,46 @@
+﻿.zoomy	{
+	position: absolute;
+	display: none;
+	background-repeat: no-repeat;
+	border: 0;
+	cursor: url(blank.gif), move;
+	line-height: 100px;
+	text-align: center;
+	background-image: url(loading.gif);
+	background-position: center;
+	background-color: #fff;
+	z-index: 1000;
+	box-shadow: 3px 3px 10px #000;
+	-webkit-box-shadow: 3px 3px 10px #000;
+	-moz-box-shadow: 3px 3px 10px #000;
+	}
+.zoomy span {
+	display: block;
+	margin: 10px auto;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.50, rgba(255, 255, 255, 0)), to( rgba(255, 255, 255, .5)));
+	background: -moz-linear-gradient(bottom center, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, .5) 100%);
+	}
+.zoomy img {
+	opacity: 0;
+	filter:alpha(opacity=0);
+	}
+.zoomy a {
+	color: #333;
+	text-decoration: none;
+	}
+.broke a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	}
+#brokeZoomy {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0px;
+	left: 0px;
+	background: #fff url(broke.gif) center no-repeat;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}

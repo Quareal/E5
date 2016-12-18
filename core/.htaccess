@@ -1,0 +1,9 @@
+ErrorDocument 403 /
+
+Order Deny,Allow
+Deny from all
+
+<Files "cron.php">
+Order Deny,Allow
+Allow from all
+</Files>

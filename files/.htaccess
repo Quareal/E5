@@ -1,0 +1,11 @@
+ErrorDocument 404 default
+ErrorDocument 403 default
+ErrorDocument 402 default
+
+RewriteEngine  off
+Options -Indexes
+
+<FilesMatch ".(php|php6|php5|php4|php3|phps|phtml|phpt)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>

@@ -1,0 +1,1 @@
+<label style="cursor: pointer;"><input type="checkbox" name="[$name]" id="[$id]" class="button" OnClick="showhide('fold[glob.e_count]');" [$addon][if $value] checked[/if]/> [$caption]</label>

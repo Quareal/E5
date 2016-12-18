@@ -1,0 +1,233 @@
+body .ace_scrollbar {
+    #display: none !important;
+}
+body .ace_scroller {
+    overflow-x: auto;
+}
+.toolbar{
+	top: 0px;
+	position: relative;
+	z-index: 999;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-bottom: 0px; 
+}
+.toolbar .container{
+	width: 100%;
+	height: 35px;
+	background-color: #EAEAEA;
+}
+.toolbar .btn{
+	float:left;
+	cursor: pointer;
+	padding: 4px;
+	border: 1px solid #EAEAEA;
+	margin-right: 3px;
+}
+.toolbar .btn:hover{
+	border: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+	margin-right: 3px;
+}
+.shadowbox{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	display: none;
+	background-color: transparent;
+	position: absolute;
+	z-index: 1000;
+	background-image: url(../classic/shadow.png);
+}
+.fakeScroll{
+	display: none;
+	bottom: 0px;
+	position: fixed;
+	z-index: 1999;
+	overflow: scroll;
+	height: 18px;
+}
+.m-shadow{
+	position: fixed;
+	top: 0px;
+	background-image: url('../classic/shadow.png');
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+}
+.m-box{
+	width: 360px;
+	height: 501px;
+	background-color: #F2F2F2;
+	position: fixed;
+	left: 50%;
+	margin-left: -180px;
+	top: 50%;
+	#overflow-y: auto;
+	margin-top: -250px;
+}
+.m-folder{
+	#overflow-y: auto;
+	height: 440px;
+	padding: 15px;
+	overflow-y: scroll;
+}
+.m-button-box{
+	margin: 10px;
+	margin-top: 0px;
+}
+.m-mini-bar{
+	height: 30px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #777777;
+	overflow: hidden;
+}
+.m-type-box{
+	padding: 10px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #777777;
+	margin-bottom: 10px;
+}
+.m-label{
+	cursor: pointer;
+}
+.m-label input[type='checkbox']{
+	width: 12px;
+	height: 12px;
+	margin-left: 0px;
+}
+.m-option-input{
+	#width: 232px;
+	width: 230px;
+}
+.m-option-button{
+	width: 28px;
+	cursor: pointer;
+	border-left: 0px;
+}
+.m-button-option{
+	padding: 3px;
+	margin-bottom: 5px;
+	border: 1px solid #FFFFFF;
+}
+.m-button-control{
+	height: 23px;
+	border: 1px solid #999999;
+	border-top: 0px;
+}
+.m-option-box-select{
+	border: 1px solid #EEEEEE;
+}
+.m-button-insert, .m-button-next{
+	padding: 5px;
+	cursor: pointer;
+	text-align: center;
+	color: #000000;
+}
+.m-button-insert{
+	background-color: #E3EEF9;
+	float: left;
+}
+.m-button-next{
+	background-color: #EEFCE0;
+	float: right;
+}
+.m-button-insert:hover, .m-button-insert-hover{
+	color: #FFFFFF;
+	background-color: #1076DC;
+}
+.m-button-next:hover, .m-button-next-hover{
+	color: #FFFFFF;
+	background-color: #47A62A;
+}
+.select_type_box, .type_box{
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+}
+.m-button-sub{
+	border: 1px solid #999999;
+	border-top: 0px;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+.m-button{
+	background-color: #EFEFEF;
+	border: 1px solid #999999;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+.m-button:hover, .m-button-select, .m-button-select2{
+	background-color: #1076DC;
+	border-color: #1076DC;
+	color: #FFFFFF;
+}
+.m-top{
+	height: 30px;
+	#height: 20px;
+	#padding: 5px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #777777;
+}
+.m-top-left{
+	float: left;
+	padding-top: 7px;
+	margin-left: 10px;
+}
+.m-top-title{
+	
+}
+.m-button-text{
+	margin: 3px;
+	border-bottom: 1px solid #BBBBBB;
+	padding-bottom: 10px;
+}
+.m-top-right{
+	float: right;
+	background-color: #EAF5FC;
+	border-right: 1px solid #7FB2D2;
+	color: #000000;
+	text-align: center;
+	height: 23px;
+	cursor: pointer;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 7px;
+	min-width: 16px;
+}
+.m-top-right:hover{
+	background-color: #1076DC;
+	color: #FFFFFF;
+}
+
+.m-top-right-beta{
+	float: right;
+	background-color: #FFFFFF;
+	border: 1px solid #1076DC;
+	border-radius: 5px;
+	text-align: center;
+	height: 17px;
+	cursor: pointer;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 3px;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 16px;
+}
+.m-top-right-beta:hover{
+	background-color: #1076DC;
+	color: #FFFFFF;
+}
+.m-top-red{
+	border-left: 0px;
+	border-right: 1px solid #E3948F;
+	background-color: #FBE6E4;
+}
+.m-top-red:hover{
+	background-color: #D72217;
+}
+.f-left{
+	float: left;
+}

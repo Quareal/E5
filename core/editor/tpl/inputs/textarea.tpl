@@ -1,0 +1,1 @@
+<textarea name="[$name]" id="[$id]" style="height: 150px;" [$addon]>[$value]</textarea>

@@ -1,0 +1,1 @@
+<input name="[$name]" id="[$id]" type="text" value="[$value]" [$addon]/>
